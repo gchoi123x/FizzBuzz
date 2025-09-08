@@ -40,4 +40,19 @@ public class MultiplesTest {
                 "Multiples.multiples(1000, 4, 4) is incorrect.");
     }
 
+    /*
+          Test for overloading multiples.
+         */
+    public static class MultiplesDefaultTest {
+
+        // TODO: When you are ready to test task X,
+        //  copy this file into the test folder.
+        @Test
+        public void testDefault() {
+            assertEquals(466,
+                    Multiples.multiples(),
+                    "Multiples.multiples() is incorrect for default values");
+        }
+
+    }
 }
